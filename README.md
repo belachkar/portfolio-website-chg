@@ -11,3 +11,7 @@ Deadline: _20/02/2020_
 - Circular Progress Bar With Plain HTML / CSS:
   - [cssscript](https://www.cssscript.com/circular-progress-bar-plain-html-css/)
   - [codepen](https://codepen.io/search/pens?q=Radial+progress+bar)
+
+## Snapshot of the website
+
+![Portfolio website](https://i.ibb.co/B6kmVBK/Portfolio-Website.png)
