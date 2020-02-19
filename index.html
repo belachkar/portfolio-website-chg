@@ -1,32 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <title>Portfolio Website</title>
 </head>
+
 <body>
-  <div class="navbar-top">
+  <div class="navbar-top fixed">
     <div class="container">
       <nav class="navbar">
         <ul>
           <li>HOME</li>
           <li>SERVICES</li>
-          <li>CONTACT</li>
+          <li class="push">CONTACT</li>
         </ul>
       </nav>
     </div>
   </div>
   <div class="container">
     <header></header>
+  </div>
+  <main>
+    <section class="intro flat">
+      <div class="container">
+        <div class="my-words">
+          <h1>Web Developer</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque sapiente quidem illo corporis vel atque,
+            debitis placeat veniam omnis corrupti, dolorum commodi ducimus! Tempora consequuntur itaque magni excepturi
+            dolor. Aperiam!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque sapiente quidem illo corporis vel atque,
+            debitis
+            placeat veniam omnis corrupti, dolorum commodi ducimus! Tempora consequuntur itaque magni excepturi dolor.
+            Aperiam!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="skills flat">
+      <div class="container">
+        <h1>Tools & Skills</h1>
+        <table>
+          <tr>
+            <td>
+              <img src="https://img.icons8.com/color/96/000000/javascript.png" alt=JS>
+            </td>
+            <td>
+              <p><b>JavaScript</b> often abbreviated as <b>JS</b>, is an interpreted programming language that conforms
+                to the
+                ECMAScript specification. <b>JavaScript</b> is high-level, often just-in-time compiled, and
+                multi-paradigm. It has
+                curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+              <p>Alongside HTML and CSS, <b>JavaScript</b> is one of the core technologies of the World Wide Web.
+                <b>JavaScript</b> enables
+                interactive web pages and is an essential part of web applications. The vast majority of websites use it
+                for client-side
+                page behavior, and all major web browsers have a dedicated <b>JavaScript</b> engine to execute it.</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://antman.info/images/news/logo.css3.png" alt="CSS3">
+            </td>
+            <td>
+              <p><b>CSS</b> (Cascading Style Sheets) is a style sheet language used for describing the presentation of a
+                document
+                written in a markup
+                language like HTML. <b>CSS</b> is a cornerstone technology of the World Wide Web, alongside HTML and
+                JavaScript.
+              </p>
+            </td>
+          </tr>
+          <!--
+          <tr>
+            <td>
+              <img src="https://img.icons8.com/color/96/000000/html-5.png" alt="HTML">
+            </td>
+            <td>
+              <p><b>HTML</b> (HyperText Markup Language) is the most basic building block of the Web. It defines the
+                meaning and structure of
+                web content. Other technologies besides <b>HTML</b> are generally used to describe a web page's
+                appearance/presentation (CSS)
+                or functionality/behavior (JavaScript).</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="https://img.icons8.com/color/96/000000/angularjs.png" alt="Angular">
+            </td>
+            <td>
+              <p><b>Angular</b> is a TypeScript-based open-source web application framework led by the <b>Angular</b>
+                Team at Google and by a community
+                of individuals and corporations. <b>Angular</b> is a complete rewrite from the same team that built
+                AngularJS.</p>
+            </td>
+          </tr>
+          -->
+        </table>
+
+      </div>
+    </section>
+    <section class="realisations flat">
+      <div class="container">
+        <h1>Some Of My Works</h1>
+        <div class="box">
+          <img class="clickable" src="img/hedgehog-640x640.jpg" alt="1">
+          <img class="clickable" src="img/rabbit-640x640.jpg" alt="1">
+          <img class="clickable" src="img/workspace-1-640x640.jpg" alt="1">
+          <img class="clickable" src="img/green-monster-640x640.jpg" alt="1">
+          <img class="clickable" src="img/halloween-costumes-640x640.jpg" alt="1">
+          <img class="clickable" src="img/hedgehog-640x640.jpg" alt="1">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="flat">
+    <div class="container">
+      <div class="columns">
+        <div>
+          <h3>Links</h3>
+          <ul class="column">
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Services</h3>
+          <ul class="column">
+            <li><a href="#">Single page</a></li>
+            <li><a href="#">Commercial web site</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Web development lessons</h3>
+          <ul class="column">
+            <li><a href="#">My youtube channel</a></li>
+            <li><a href="#">My personnel web site</a></li>
+            <li><a href="#">Leave a comment</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <main>
-      <section class="intro"></section>
-      <section class="skills"></section>
-      <section class="realisations"></section>
-    </main>
-    <footer></footer>
+  </footer>
+  <div class="social_links fixed">
+    <div class="social_link clickable"><img src="https://freeiconshop.com/wp-content/uploads/edd/linkedin-flat.png" alt="LinkedIn"></div>
+    <div class="social_link clickable"><img src="https://img.pngio.com/github-logo-icon-of-glyph-style-available-in-svg-png-eps-ai-github-icon-png-256_256.png" alt="Github"></div>
+    <div class="social_link clickable"><img src="https://freeiconshop.com/wp-content/uploads/edd/facebook-flat.png" alt="Facebook"></div>
+  </div>
 
 </body>
+
 </html>

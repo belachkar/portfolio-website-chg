@@ -9,8 +9,47 @@ ul {
   padding: 0;
 }
 
+footer {
+  background-color: rgb(36, 36, 36);
+  padding         : 30px 0;
+  color           : #93ccff;
+}
+
+footer a {
+  color: #cb94ff;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
 ul {
   list-style: none;
+}
+
+section {
+  padding: 30px 0;
+}
+
+td>img {
+  width : 100px;
+  height: 100px;
+}
+
+tr>td:last-child {
+  padding-left: 13px;
+  text-align  : justify;
+}
+
+a {
+  text-decoration: none;
+  color          : blueviolet;
 }
 
 .container {
@@ -20,31 +59,117 @@ ul {
 }
 
 .navbar-top {
-  position        : fixed;
   width           : 100%;
   background-color: rgba(0, 0, 0, 0.8);
-  padding         : 24px 0;
 }
 
 .navbar {
-  color: aquamarine;
+  color: #b4d519;
+}
+
+.navbar>ul {
+  display: flex;
 }
 
 .navbar>ul>li {
-  display: inline;
   padding: 24px 40px;
-  margin : 0 10px;
 }
 
 .navbar>ul>li:hover {
   cursor          : pointer;
-  color           : rgb(82, 241, 188);
-  background-color: rgba(0, 0, 0, 0.9);
+  color           : #d0ff00;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
+
+
 .intro {
-  height          : 900px;
-  background-image: url("https://i.ibb.co/Mnpd6mr/hero.jpg");
-  background-color: #cccccc;
-  background-size : 100% 100%;
+  padding-top: 250px;
+  text-align : justify;
+  height     : 900px;
+  background : url("https://i.ibb.co/Mnpd6mr/hero.jpg") 0 0/cover no-repeat rgb(162, 247, 154);
+}
+
+.my-words {
+  background-color: rgba(147, 255, 137, .6);
+  padding         : 20px 30px 10px 30px;
+  max-width       : 660px;
+  border-radius   : 10px;
+}
+
+.skills {
+  background-color: rgb(162, 255, 153);
+}
+
+section h1 {
+  background-color: rgba(0, 0, 0, .1);
+  padding         : 7px 0;
+  color           : rgb(87, 87, 87);
+  border-radius   : 30px 0;
+}
+
+.realisations {
+  background-color: rgb(79, 219, 255);
+}
+
+.box {
+  display        : flex;
+  justify-content: space-evenly;
+  flex-wrap      : wrap;
+}
+
+.box img {
+  width : 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.column>li {
+  margin-bottom: 10px;
+}
+
+.social_links {
+  top : 30%;
+  left: 0;
+}
+
+.social_link {
+  background-color: rgba(200, 100, 50, 0.2);
+  padding         : 0 0 0 5px;
+  margin-bottom   : 10px;
+  border-radius   : 20% 50% 50% 0;
+}
+
+.social_link>img {
+  width : 50px;
+  height: 50px;
+}
+
+/* Tools */
+.flat {
+  width: 100%;
+}
+
+.columns {
+  display        : flex;
+  justify-content: space-between;
+  flex-wrap      : wrap;
+}
+
+.column {
+  display       : flex;
+  flex-direction: column;
+  margin-right  : 20px;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.fixed {
+  position: fixed;
 }
