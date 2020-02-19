@@ -42,9 +42,9 @@ td>img {
   height: 100px;
 }
 
-tr>td:last-child {
-  padding-left: 13px;
-  text-align  : justify;
+tr>td:nth-child(2) {
+  padding   : 0 13px;
+  text-align: justify;
 }
 
 a {
@@ -57,17 +57,27 @@ a {
   width : 70%;
 }
 
+.logo>img {
+  position: absolute;
+  top     : 10px;
+  left    : 20px;
+  height  : 50px;
+  width   : 50px;
+}
+
 .navbar-top {
   width           : 100%;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index         : 10;
 }
 
 .navbar {
-  color: #c6f00c;
+  color: #ff946c;
 }
 
 .navbar>ul {
-  display: flex;
+  display  : flex;
+  flex-wrap: wrap;
 }
 
 .navbar>ul>li {
@@ -76,11 +86,9 @@ a {
 
 .navbar>ul>li:hover {
   cursor          : pointer;
-  color           : #d0fd00;
+  color           : #fa9b78;
   background-color: rgba(0, 0, 0, 0.7);
 }
-
-
 
 .intro {
   padding-top: 250px;
@@ -142,6 +150,24 @@ section h1 {
 .social_link>img {
   width : 50px;
   height: 50px;
+}
+
+/* circle customization */
+.c100 {
+  background-color: rgba(162, 255, 153, .2);
+}
+
+.slice {
+  width : 90%;
+  height: 90%;
+}
+
+.c100>span {
+  color: #3c3c3c;
+}
+
+.c100::after {
+  background-color: rgba(0, 0, 0, 0.05)
 }
 
 /* Tools */
