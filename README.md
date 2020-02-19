@@ -1,5 +1,7 @@
 # February Challenge - Portfolio Website Tutorial
 
+A portfolio website with HTML & CSS only.
+
 Deadline: _20/02/2020_
 
 - Icons (png, svg):
